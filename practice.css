@@ -3,34 +3,45 @@
     box-sizing: border-box; 
   }
 
-  header {
-    height: 50px;
-    width: 100%;
-    background-color: red;
-  }
+header {
+  text-align: center;
+}
 
-  .main-visual {
-    height: 500px;
-    width: 100%;
-    background-color: orange;
-  }
+header .heading {
+  color: blue;
+  text-decoration: underline;
+  margin: 20px 0;
+}
 
-  .main {
-    height: 1400px;
-    width: 960px;
-    background-color: aquamarine;
-    margin: 0 auto;
-  }
+nav {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.nav-list li {
+  display: inline-block;
+  margin: 15px 20px;
+  list-style: none;
+}
 
-  .content {
-    height: 1400px;
-    width: 500px;
-    background-color: green;
-    margin: 0 auto;
-  }
+.nav-list a {
+  color: green;
+}
+.nav-list a:visited {
+  color: red;
+}
+.nav-list a:hover {
+  color: gray;
+}
 
-  footer {
-    height: 100px;
-    width: auto;
-    background-color: blue;
-  }
+
+.main {
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.same {
+  height: 200px;
+  width: 200px;
+}
