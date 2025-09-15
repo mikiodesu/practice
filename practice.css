@@ -1,47 +1,26 @@
-* { margin: 0;
-   padding: 0;
-    box-sizing: border-box; 
-  }
-
-header {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* あとで便利 */
 }
 
-header .heading {
-  color: blue;
-  text-decoration: underline;
-  margin: 20px 0;
+.main-visual {
+  height: 400px;
+  width: auto;
+  padding: 20px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;       /* 要素いっぱいに表示 */
+  background-position: bottom;  /* 下を基準に表示 */
+  
 }
-
-nav {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-}
-.nav-list li {
-  display: inline-block;
-  margin: 15px 20px;
-  list-style: none;
-}
-
-.nav-list a {
-  color: green;
-}
-.nav-list a:visited {
-  color: red;
-}
-.nav-list a:hover {
+.main-visual h2 {
   color: gray;
 }
-
-
 .main {
-  height: 600px;
   width: 800px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 50px 0;
+  margin: 50px auto;
 }
-.same {
-  height: 200px;
-  width: 200px;
+.content {
+  padding: 30px 0;
+  border-bottom: 2px solid black;
 }
